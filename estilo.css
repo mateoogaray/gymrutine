@@ -1,0 +1,55 @@
+#logo {
+    width: 12%;
+    float: right;
+}
+
+body {
+    background-image: url("imagenes/fondo\ 2.jpg")
+}
+
+.ejercicios {
+    width: 30%;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+a {
+    text-decoration: none;
+    background-color: rgb(243, 41, 34);
+    font-size: 2em;
+    margin: 20px;
+    border-radius: 7px;
+    border: 2px solid red;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+header {
+    background-color: rgba(240, 255, 255, 0.438);
+}
+
+h2 {
+    font-size: 3em;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.356);
+}
+
+p {
+    font-size: 1em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1em;
+}
