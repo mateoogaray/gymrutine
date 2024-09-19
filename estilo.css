@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+
 #logo {
-    width: 12%;
+    width: 13%;
     float: right;
 }
 
 body {
-    background-image: url("imagenes/fondo\ 2.jpg")
+    background-image: url("imagenes/fondo\ 3.png");
+    font-family: "Gowun Batang", serif;
 }
 
 .ejercicios {
@@ -31,19 +34,25 @@ nav {
 }
 
 header {
-    background-color: rgba(240, 255, 255, 0.438);
+    background-color: rgba(130, 223, 112, 0.534);
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 h2 {
     font-size: 3em;
+    margin: 30px auto;
 }
 
 main {
-    background-color: rgba(255, 255, 255, 0.356);
+    background-color: rgba(255, 255, 255, 0.253);
+    margin-top: 150px;
 }
 
 p {
-    font-size: 1em;
+    font-size: 1.3em;
+
 }
 
 h3 {
@@ -51,5 +60,5 @@ h3 {
 }
 
 h4 {
-    font-size: 1em;
+    font-size: 1.6em;
 }
