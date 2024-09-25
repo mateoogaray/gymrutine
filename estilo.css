@@ -11,7 +11,7 @@ body {
 }
 
 .ejercicios {
-    width: 30%;
+    width: 50%;
     margin: 20px;
 }
 
@@ -29,10 +29,12 @@ h1 {
     border: 2px solid red;
     text-align: center;
     padding: 5px;
+    display: inline-block;
 }
 
 nav {
     text-align: center;
+    display: block;
 }
 
 header {
@@ -81,16 +83,30 @@ iframe {
 
 @media (max-width=700px) {
     nav {
-        display: grid;
-        grid-template-columns: auto auto;
+        text-align: center;
 
     }
 
-    nav a {
-        margin: 40px;
+    .dias {
+        font-size: 1.4em;
+        margin: 5px;
+        /*display: block;*/
+    }
+
+    #logo {
+        width: 25%;
+    }
+
+    #home {
+        width: 15%;
+        margin: 5px;
+        left: 0;
+        top: 0;
     }
 }
 
+
 h5 {
     font-size: 1.4em;
+    margin: 30px;
 }
