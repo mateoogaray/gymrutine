@@ -3,15 +3,17 @@
 #logo {
     width: 13%;
     float: right;
+
 }
 
 body {
     background-image: url(imagenes/fondo\ 4.webp);
     font-family: "Gowun Batang", serif;
+    margin: 0;
 }
 
 .ejercicios {
-    width: 50%;
+
     margin: 20px;
 }
 
@@ -51,7 +53,8 @@ h2 {
 
 main {
     background-color: rgba(247, 247, 247, 0.5);
-    margin-top: 150px;
+    margin: 150px auto 20px;
+    width: 90%;
 }
 
 p {
@@ -102,6 +105,10 @@ iframe {
         margin: 5px;
         left: 0;
         top: 0;
+    }
+
+    #body {
+        width: 100%;
     }
 }
 
