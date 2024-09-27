@@ -13,13 +13,11 @@ body {
 }
 
 .ejercicios {
-
     margin: 20px;
 }
 
 h1 {
     text-align: center;
-
 }
 
 .dias {
@@ -81,17 +79,18 @@ h4 {
 }
 
 iframe {
-    margin: 20px 70px;
+    margin: 20px auto;
+    width: 90%;
 }
 
-@media (max-width=700px) {
+@media (max-width:700px) {
     nav {
         text-align: center;
 
     }
 
     .dias {
-        font-size: 1.4em;
+        font-size: 1.2em;
         margin: 5px;
         /*display: block;*/
     }
